@@ -35,7 +35,13 @@
   margin: 0;
   font-size: 48px;
 }
-.menu-button {
+.openBtn {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  display: block;
+}
+.closeBtn {
   position: absolute;
   left: 20px;
   cursor: pointer;
@@ -63,6 +69,9 @@
 }
 .menu--open {
   display: block;
+}
+.hide-btn {
+  display: none;
 }
 .articles {
   margin-top: 95px;

@@ -1,4 +1,11 @@
-.menu-button {
+.openBtn {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  display: block;
+}
+
+.closeBtn {
   position: absolute;
   left: 20px;
   cursor: pointer;
@@ -16,6 +23,7 @@
   border-left: none;
   border-bottom: none;
   z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
+
 }
 
 .menu ul li{
@@ -25,6 +33,12 @@
   text-align: center;
 }
 
+
+
 .menu--open {
   display: block;
+}
+
+.hide-btn {
+  display: none;
 }
